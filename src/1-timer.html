@@ -8,15 +8,32 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-
     <main>
-      <div class="container">
-        <h1 class="main-title">
-          <span class="main-title-gradient">Welcome</span> to page 2
-        </h1>
-        <a class="back-link" href="./index.html">Go back</a>
+      <a class="back-link" href="./index.html">Go back</a>
+      <div class="timer-about-input">
+        <input type="text" id="datetime-picker" />
+        <button type="button" data-start >Start</button>
+      </div>
+
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days></span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours></span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes></span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds></span>
+          <span class="label">Seconds</span>
+        </div>
       </div>
     </main>
-
+    <script type="module" src="./js/1-timer.js" defer></script>
   </body>
 </html>

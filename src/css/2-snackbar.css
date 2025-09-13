@@ -1,0 +1,48 @@
+.input-delay {
+    width: 360px;
+    height: 40px;
+    margin-top: 8px;
+}
+fieldset {
+    width: 360px;
+    height: 64px;
+}
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.label-delay {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+legend {
+   text-align: left;
+   font-size: 16px;
+}
+fieldset {
+    display: flex;
+    justify-content: space-around;
+}
+.form button {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #4e75ff;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    border: none;
+    border-radius: 8px;
+}
+.form button:hover {
+    background-color: #6c8cff;
+}
